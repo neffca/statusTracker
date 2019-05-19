@@ -8,8 +8,8 @@ things that trigger this increase and work with a professional to get through
 them.
 
 The full implementation will include:
-1. a suicide hotline if the user selects "extremely depressed" as their status.
-2. a messanger system with emergency contacts and the ability for one of the
+1. A suicide hotline if the user selects "extremely depressed" as their status.
+2. A messanger system with emergency contacts and the ability for one of the
 contacts to signal to the others that they are responding.
 3. A graph of the users emotional state.
 4. A 'Did you take your meds?' prompt
