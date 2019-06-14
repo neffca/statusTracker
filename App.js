@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { StatusPage } from "./src/components/common/StatusPage.js"
+import StatusPage from './src/components/pages/statusUpdate/StatusPage.js'
 
 export default class App extends React.Component {
   render() {

@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Status from "./Status.js"
 
-export default class StatusPage extends React.Component {
+export class StatusPage extends React.Component {
   render() {
     return (
       <View>
@@ -34,6 +34,7 @@ export default class StatusPage extends React.Component {
 
 const styles = StyleSheet.create({
   welcome: {
+    flex: 1,
     fontSize: 24,
     color: '#b8edff',
   }
