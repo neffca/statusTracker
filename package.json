@@ -1,22 +1,19 @@
 {
-  "name": "empty-project-template",
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "StatusTracker",
   "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "eject": "expo eject"
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
   },
   "dependencies": {
-    "expo": "^31.0.2",
+    "@babel/runtime": "^7.0.0",
     "node": "^10.16.0",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "react-native": "^0.59.9",
     "watchman": "^1.0.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0",
     "redux": "^4.0.1"
   }
 }
